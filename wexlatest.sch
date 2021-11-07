@@ -175,9 +175,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 2500 2250 2650
 Connection ~ 1600 2500
-Text GLabel 1900 7100 3    50   Input ~ 0
-RELAM
 Text GLabel 2000 7100 3    50   Input ~ 0
+RELAM
+Text GLabel 2300 7100 3    50   Input ~ 0
 RELBM
 $Comp
 L Device:LED D9
@@ -214,7 +214,7 @@ F 3 "" H 1650 5450 50  0001 C CNN
 	1    1650 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2100 7100 3    50   Input ~ 0
+Text GLabel 1900 7100 3    50   Input ~ 0
 RELAL
 $Comp
 L Device:LED D10
@@ -323,9 +323,9 @@ F 3 "" H 2850 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 6150 2050 6300
-Text GLabel 2200 7100 3    50   Input ~ 0
+Text GLabel 2100 7100 3    50   Input ~ 0
 RELAR
-Text GLabel 2300 7100 3    50   Input ~ 0
+Text GLabel 2200 7100 3    50   Input ~ 0
 RELBL
 Text GLabel 2400 7100 3    50   Input ~ 0
 RELBR
@@ -1160,15 +1160,15 @@ F 3 "" H 4100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x06 SW10
+L Connector_Generic:Conn_02x06_Odd_Even SW10
 U 1 1 618CC9F2
-P 2100 6800
-F 0 "SW10" V 2054 7230 50  0000 L CNN
-F 1 "SW_DIP_x06" V 2145 7230 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2100 6800 50  0001 C CNN
-F 3 "~" H 2100 6800 50  0001 C CNN
-	1    2100 6800
-	0    1    1    0   
+P 2100 6900
+F 0 "SW10" V 2054 7330 50  0000 L CNN
+F 1 "SW_DIP_x06" V 2145 7330 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2100 6900 50  0001 C CNN
+F 3 "~" H 2100 6900 50  0001 C CNN
+	1    2100 6900
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2400 6400 2850 6400
@@ -1177,11 +1177,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 6150 2450 6300
 Wire Wire Line
-	2100 6400 1650 6400
-Wire Wire Line
 	1650 6150 1650 6400
-Wire Wire Line
-	2000 6500 1900 6500
 $Comp
 L power:GND #PWR036
 U 1 1 61909770
@@ -1195,21 +1191,6 @@ F 3 "" H 1600 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6650 1600 6500
-Wire Wire Line
-	1600 6500 1900 6500
-Connection ~ 1900 6500
-Wire Wire Line
-	2100 6500 2100 6400
-Wire Wire Line
-	2200 6500 2200 6300
-Wire Wire Line
-	2300 6500 2300 6300
-Wire Wire Line
-	2400 6500 2400 6400
-Wire Wire Line
-	2200 6300 2050 6300
-Wire Wire Line
-	2300 6300 2450 6300
 Text GLabel 9150 4850 0    50   Input ~ 0
 RELAM
 Text GLabel 9150 5150 0    50   Input ~ 0
@@ -1482,4 +1463,27 @@ F 3 "" H 6550 4700 50  0001 C CNN
 	1    6550 4700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2000 6600 2000 6500
+Wire Wire Line
+	2400 6400 2400 6600
+Wire Wire Line
+	1600 6500 2000 6500
+Wire Wire Line
+	2000 6500 2300 6500
+Wire Wire Line
+	2300 6500 2300 6600
+Connection ~ 2000 6500
+Wire Wire Line
+	1650 6400 1900 6400
+Wire Wire Line
+	1900 6400 1900 6600
+Wire Wire Line
+	2050 6300 2100 6300
+Wire Wire Line
+	2100 6300 2100 6600
+Wire Wire Line
+	2200 6300 2200 6600
+Wire Wire Line
+	2200 6300 2450 6300
 $EndSCHEMATC
