@@ -175,9 +175,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 2500 2250 2650
 Connection ~ 1600 2500
-Text GLabel 2000 7100 3    50   Input ~ 0
-RELAM
 Text GLabel 2300 7100 3    50   Input ~ 0
+RELAM
+Text GLabel 2000 7100 3    50   Input ~ 0
 RELBM
 $Comp
 L Device:LED D9
@@ -214,7 +214,7 @@ F 3 "" H 1650 5450 50  0001 C CNN
 	1    1650 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1900 7100 3    50   Input ~ 0
+Text GLabel 2400 7100 3    50   Input ~ 0
 RELAL
 $Comp
 L Device:LED D10
@@ -323,11 +323,11 @@ F 3 "" H 2850 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 6150 2050 6300
-Text GLabel 2100 7100 3    50   Input ~ 0
-RELAR
 Text GLabel 2200 7100 3    50   Input ~ 0
+RELAR
+Text GLabel 1900 7100 3    50   Input ~ 0
 RELBL
-Text GLabel 2400 7100 3    50   Input ~ 0
+Text GLabel 2100 7100 3    50   Input ~ 0
 RELBR
 $Comp
 L Switch:SW_Push SW1
@@ -1191,17 +1191,17 @@ F 3 "" H 1600 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6650 1600 6500
-Text GLabel 9150 4850 0    50   Input ~ 0
-RELAM
 Text GLabel 9150 5150 0    50   Input ~ 0
+RELAM
+Text GLabel 9150 4850 0    50   Input ~ 0
 RELBM
-Text GLabel 9150 4750 0    50   Input ~ 0
-RELAL
-Text GLabel 9150 4950 0    50   Input ~ 0
-RELAR
-Text GLabel 9150 5050 0    50   Input ~ 0
-RELBL
 Text GLabel 9150 5250 0    50   Input ~ 0
+RELAL
+Text GLabel 9150 5050 0    50   Input ~ 0
+RELAR
+Text GLabel 9150 4750 0    50   Input ~ 0
+RELBL
+Text GLabel 9150 4950 0    50   Input ~ 0
 RELBR
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J5
