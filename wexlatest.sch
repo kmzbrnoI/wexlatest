@@ -1276,45 +1276,45 @@ NoConn ~ 1500 3100
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 618C5026
-P 8650 6050
-F 0 "H4" H 8750 6096 50  0000 L CNN
-F 1 "MountingHole" H 8750 6005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8650 6050 50  0001 C CNN
-F 3 "~" H 8650 6050 50  0001 C CNN
-	1    8650 6050
+P 7950 6050
+F 0 "H4" H 8050 6096 50  0000 L CNN
+F 1 "MountingHole" H 8050 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7950 6050 50  0001 C CNN
+F 3 "~" H 7950 6050 50  0001 C CNN
+	1    7950 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 618C6BB7
-P 8650 5850
-F 0 "H2" H 8750 5896 50  0000 L CNN
-F 1 "MountingHole" H 8750 5805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8650 5850 50  0001 C CNN
-F 3 "~" H 8650 5850 50  0001 C CNN
-	1    8650 5850
+P 7950 5850
+F 0 "H2" H 8050 5896 50  0000 L CNN
+F 1 "MountingHole" H 8050 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7950 5850 50  0001 C CNN
+F 3 "~" H 7950 5850 50  0001 C CNN
+	1    7950 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 618C700B
-P 9700 6050
-F 0 "H5" H 9800 6096 50  0000 L CNN
-F 1 "MountingHole" H 9800 6005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9700 6050 50  0001 C CNN
-F 3 "~" H 9700 6050 50  0001 C CNN
-	1    9700 6050
+P 9000 6050
+F 0 "H5" H 9100 6096 50  0000 L CNN
+F 1 "MountingHole" H 9100 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9000 6050 50  0001 C CNN
+F 3 "~" H 9000 6050 50  0001 C CNN
+	1    9000 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 618C7445
-P 9700 5850
-F 0 "H3" H 9800 5896 50  0000 L CNN
-F 1 "MountingHole" H 9800 5805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9700 5850 50  0001 C CNN
-F 3 "~" H 9700 5850 50  0001 C CNN
-	1    9700 5850
+P 9000 5850
+F 0 "H3" H 9100 5896 50  0000 L CNN
+F 1 "MountingHole" H 9100 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9000 5850 50  0001 C CNN
+F 3 "~" H 9000 5850 50  0001 C CNN
+	1    9000 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1485,5 +1485,27 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4550 1550 50  0001 C CNN
 F 3 "~" H 4550 1550 50  0001 C CNN
 	1    4550 1350
 	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 618B6572
+P 9900 5850
+F 0 "H6" H 10000 5896 50  0000 L CNN
+F 1 "MountingHole" H 10000 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 5850 50  0001 C CNN
+F 3 "~" H 9900 5850 50  0001 C CNN
+	1    9900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 618BABA6
+P 9900 6050
+F 0 "H7" H 10000 6096 50  0000 L CNN
+F 1 "MountingHole" H 10000 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 6050 50  0001 C CNN
+F 3 "~" H 9900 6050 50  0001 C CNN
+	1    9900 6050
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
