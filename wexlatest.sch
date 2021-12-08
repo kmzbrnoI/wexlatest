@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "WexlaTest"
 Date "2021-10-14"
-Rev "1.0"
+Rev "2.0"
 Comp "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/"
 Comment1 "Jan Horáček"
 Comment2 "https://github.com/kmzbrnoI/wexlatest"
@@ -123,11 +123,11 @@ Wire Wire Line
 Wire Wire Line
 	1550 3500 1650 3500
 Connection ~ 1550 3500
-Text GLabel 1650 3500 2    50   Input ~ 0
+Text GLabel 1650 4300 2    50   Input ~ 0
 RELBL
 Text GLabel 1650 3900 2    50   Input ~ 0
 RELBM
-Text GLabel 1650 4300 2    50   Input ~ 0
+Text GLabel 1650 3500 2    50   Input ~ 0
 RELBR
 $Comp
 L power:+5V #PWR010
@@ -325,9 +325,9 @@ Wire Wire Line
 	2050 6150 2050 6300
 Text GLabel 2200 7100 3    50   Input ~ 0
 RELAR
-Text GLabel 1900 7100 3    50   Input ~ 0
-RELBL
 Text GLabel 2100 7100 3    50   Input ~ 0
+RELBL
+Text GLabel 1900 7100 3    50   Input ~ 0
 RELBR
 $Comp
 L power:GND #PWR07
@@ -1188,9 +1188,9 @@ Text GLabel 9150 5250 0    50   Input ~ 0
 RELAL
 Text GLabel 9150 5050 0    50   Input ~ 0
 RELAR
-Text GLabel 9150 4750 0    50   Input ~ 0
-RELBL
 Text GLabel 9150 4950 0    50   Input ~ 0
+RELBL
+Text GLabel 9150 4750 0    50   Input ~ 0
 RELBR
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J5
