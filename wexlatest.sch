@@ -37,11 +37,11 @@ F 3 "" H 1550 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 2200 1650 2200
-Text GLabel 1650 2200 2    50   Input ~ 0
+Text GLabel 1650 2400 2    50   Input ~ 0
 IN+
 Wire Wire Line
 	1500 2400 1650 2400
-Text GLabel 1650 2400 2    50   Input ~ 0
+Text GLabel 1650 2200 2    50   Input ~ 0
 IN-
 Wire Wire Line
 	1500 2600 1650 2600
@@ -1023,9 +1023,9 @@ Wire Wire Line
 	9250 3650 9000 3650
 Wire Wire Line
 	9250 3750 9000 3750
-Text GLabel 9000 3150 0    50   Input ~ 0
-IN+
 Text GLabel 9000 3250 0    50   Input ~ 0
+IN+
+Text GLabel 9000 3150 0    50   Input ~ 0
 IN-
 Text GLabel 9000 3350 0    50   Input ~ 0
 IN-SLAVE|MCLR
